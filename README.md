@@ -12,8 +12,7 @@ Just enter the boolean equation that shows the table with the corresponding outp
 
 For example:
 
-![Table Truth]
-(https://github.com/NElscost/Table-Truth/blob/master/Gif.gif)
+![Table Truth](https://github.com/NElscost/Table-Truth/blob/master/Gif.gif)
 
 # Contact
 
