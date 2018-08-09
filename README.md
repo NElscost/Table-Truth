@@ -12,9 +12,9 @@ Just enter the boolean equation that shows the table with the corresponding outp
 
 For example:
 
-![]
+![Table Truth]
 (https://github.com/NElscost/Table-Truth/blob/master/Gif.gif)
 
 # Contact
 
-elscost@gmail.com
+Elscost@gmail.com
