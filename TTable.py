@@ -48,9 +48,9 @@ for w in list(alf):
 Função = t('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',c=Quantidade)
 
 for x in range(2**Quantidade):
-	y = bin(x)[2:]
-	Binário = y.zfill(Quantidade)
+	y = bin(x)[2:] #Converte os valores de X para Binário
+	Binário = y.zfill(Quantidade) #Preenche com zeros a esquerda os espaços sobrando
 	for z in range(0,len(l)):
-		d = exec(l[z])
+		d = exec(l[z]) #Executa a expressão contida dentro da lista "l"
 	print(Binário,point(Função))
 print("\n"+'Quantidade = %s'%(2**Quantidade))
