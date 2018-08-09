@@ -15,14 +15,14 @@ def cont(b,a):
 	return clock - 1
 
 
-def t(*args,c):
+def t(*args,c): #Retorna em forma de lista a expressão necessária para gerar a Tabela, por exemplo = (A = int(Binário[posição]))
 	clock = -1
 	for elem in args:
 			if(clock != c - 1):
 				clock += 1
 				l.append(elem + " = " + "int(Binário["+str(clock)+"])")
 			else:
-				l.append(elem+" = None")
+				l.append(elem+" = None") #Se o clock for menor do que a quantidade de elementos retorna a quantidade de elementos restantes iguais a None por exemplo (cont("A",c=2)) : (A = int(Binário[0]),B = None)
 	return (l)
 
 print("\n"+"USE X >> Y PARA (X * Ῡ)")
@@ -32,7 +32,7 @@ print("USE X & Y PARA PORTA AND OU X * Y")
 print("USE 1 >> X PARA PORTA NOT"+"\n")
 
 Equacao = input("Digite a equacao booleana: ").upper()
-Quantidade = cont(Equacao,alf)
+Quantidade = cont(Equacao,alf) #A quantidade é equivalente a quantidade de elementos iguais entre o conjunto do alfabeto e a Equação
 def point(*args):
 	 Resultado = eval(Equacao)
 	 if(Resultado >= 1):
@@ -52,5 +52,5 @@ for x in range(2**Quantidade):
 	Binário = y.zfill(Quantidade)
 	for z in range(0,len(l)):
 		d = exec(l[z])
-	print(Binário,point())
+	print(Binário,point(Função))
 print("\n"+'Quantidade = %s'%(2**Quantidade))
