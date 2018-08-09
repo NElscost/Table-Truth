@@ -6,7 +6,9 @@ I did this project with the purpose of facilitating the calculations involving t
 
 Clone or Download directory
 
-Execute ```$python TTable.py```
+Install the version most recently of the python in your computer
+
+And execute ```$python TTable.py```
 
 Just enter the boolean equation that shows the table with the corresponding output ...
 
