@@ -28,7 +28,8 @@ def t(*args,c):
 print("\n"+"USE X >> Y PARA (X * Ῡ)")
 print("USE X ^ Y PARA PORTA XOR")
 print("USE X | Y PARA PORTA OR OU X + Y")
-print("USE X & Y PARA PORTA AND OU X * Y"+"\n")
+print("USE X & Y PARA PORTA AND OU X * Y")
+print("USE 1 >> X PARA PORTA NOT"+"\n")
 
 Equacao = input("Digite a equacao booleana: ").upper()
 Quantidade = cont(Equacao,alf)
