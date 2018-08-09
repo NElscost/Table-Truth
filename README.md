@@ -8,7 +8,7 @@ Clone or Download directory
 
 Install the version most recently of the python in your computer
 
-And execute ```$python TTable.py```
+And execute ```$python Table-Truth.py```
 
 Just enter the boolean equation that shows the table with the corresponding output ...
 
