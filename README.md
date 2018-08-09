@@ -13,7 +13,7 @@ Just enter the boolean equation that shows the table with the corresponding outp
 For example:
 
 ![]
-(https://github.com/NElscost/Table-Truth/Gif.gif)
+(https://github.com/NElscost/Table-Truth/blob/master/Gif.gif)
 
 # Contact
 
