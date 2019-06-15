@@ -6,6 +6,8 @@ I did this project with the purpose of facilitating the calculations involving t
 
 Clone or Download directory
 
+```git clone https://github.com/NElscost/Table-Truth```
+
 Install the version most recently of the python in your computer
 
 And execute ```$python Table-Truth.py```
